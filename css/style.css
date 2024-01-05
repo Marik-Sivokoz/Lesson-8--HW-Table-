@@ -1,0 +1,52 @@
+
+table {
+  width: 100%;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #34db55;
+  color: #fff;
+}
+
+tr:nth-child(odd) td {
+  background-color: #ecf0f1;
+}
+
+tr:nth-child(even) td {
+  background-color: #bdc3c7;
+}
+
+td:focus {
+  outline: 2px solid black;
+}
+
+td:nth-child(odd):hover {
+  background-color: #006eff;
+}
+
+td:nth-child(even):hover {
+  background-color: #ccff00;
+}
+
+td:active {
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
