@@ -1,6 +1,6 @@
 
 table {
-  width: 100%;
+  width: 100%;  
 }
 
 th, td {
@@ -37,6 +37,22 @@ td:nth-child(even):hover {
 td:active {
   color: red;
 }
+
+td:focus {
+  outline: 2px solid black;
+}
+
+input:checked + label {
+  text-decoration: underline;
+}
+
+
+td:not(:last-child) {
+  border-right: 2px solid #ddd;
+}
+
+
+
 
 
 
